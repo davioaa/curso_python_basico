@@ -1,0 +1,8 @@
+valor_1 = input('Digite o primeiro valor: ')
+valor_2 = input('Digite o segundo valor: ')
+
+
+if valor_1 > valor_2:
+    print(f'{valor_1=} é maior que {valor_2=}')
+elif valor_2 >  valor_1:
+    print(f'{valor_2=} é maior que {valor_1=}')
